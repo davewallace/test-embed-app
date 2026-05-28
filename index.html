@@ -30,7 +30,7 @@
             }
             function expandBodyHeight() {
                 console.log('expanding body height');
-                document.getElementsByTagName('body')[0].style.height = Math.random() * 500 + 100 + 'px';
+                document.getElementsByTagName('body')[0].style.height = [100, 200, 300, 500][Math.floor(Math.random() * 4)] + 'px';
                 expandAppHeight();
             }
             document.addEventListener('DOMContentLoaded', (event) => {
