@@ -26,12 +26,17 @@
              */
             function expandAppHeight() {
                 console.log('expanding app height');
-                window.parent.postMessage({ type: 'appEmbed:resize', height: document.body.scrollHeight }, '*');
+                window.parent.postMessage({ type: 'appEmbed:resize', height: getDocumentHeight() }, '*');
             }
             function expandBodyHeight() {
                 console.log('expanding body height');
                 document.getElementsByTagName('body')[0].style.height = [100, 200, 300, 500][Math.floor(Math.random() * 4)] + 'px';
                 expandAppHeight();
+            }
+            function getDocumentHeight() {
+                const body = document.body;
+                const html = document.documentElement;
+                return Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
             }
             document.addEventListener('DOMContentLoaded', (event) => {
                 console.log('DOMContentLoaded');
