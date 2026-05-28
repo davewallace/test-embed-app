@@ -25,12 +25,18 @@
              * to send a message to the parent DOM (Totara) to tell it to resize the iframe to fit the content of the app.
              */
             function expandAppHeight() {
+                console.log('expanding app height');
                 window.parent.postMessage({ type: 'appEmbed:resize', height: document.body.scrollHeight }, '*');
             }
             function expandBodyHeight() {
+                console.log('expanding body height');
                 document.getElementsByTagName('body')[0].style.height = Math.random() * 500 + 100 + 'px';
+                expandAppHeight();
             }
-            window.ondomContentLoaded = expandAppHeight;
+            document.addEventListener('DOMContentLoaded', (event) => {
+                console.log('DOMContentLoaded');
+                expandAppHeight();
+            });
         </script>
     </body>
 </html>
