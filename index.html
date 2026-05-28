@@ -10,11 +10,25 @@
              */
             body {
                 color: var(--color-primary);
+                background: var(--color-background);
             }
         </style>
     </head>
 
     <body>
-        <p>Hello World.</p>
+        <p>Hello Totara.</p>
+        <button onclick="expandAppHeight()">Expand app height</button>
+        <script type="text/javascript">
+            /**
+             * This is a generic web app that can be embedded in Totara using the AppEmbed component.
+             * This app could be anything, with any height, including being fully dynamic, so we need
+             * to send a message to the parent DOM (Totara) to tell it to resize the iframe to fit the content of the app.
+             */
+            function expandAppHeight() {
+                window.parent.postMessage({ type: 'appEmbed:resize', height: document.body.scrollHeight }, '*');
+            }
+            function expandAppHeight() {
+                document.getElementsByTagName('body')[0].style.height = Math.random() * 500 + 100 + 'px';
+        </script>
     </body>
 </html>
