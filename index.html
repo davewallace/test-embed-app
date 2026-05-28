@@ -17,7 +17,7 @@
 
     <body>
         <p>Hello Totara.</p>
-        <button onclick="expandAppHeight()">Expand app height</button>
+        <button onclick="expandBodyHeight()">Expand app height</button>
         <script type="text/javascript">
             /**
              * This is a generic web app that can be embedded in Totara using the AppEmbed component.
@@ -27,7 +27,7 @@
             function expandAppHeight() {
                 window.parent.postMessage({ type: 'appEmbed:resize', height: document.body.scrollHeight }, '*');
             }
-            function expandAppHeight() {
+            function expandBodyHeight() {
                 document.getElementsByTagName('body')[0].style.height = Math.random() * 500 + 100 + 'px';
             }
         </script>
