@@ -53,13 +53,28 @@
 
                 // Observe body size changes and notify parent to resize iframe
                 const resizeObserver = new ResizeObserver((e) => {
-                    setTimeout(() => {
+                    debounce(() => {
                         console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
                         expandAppHeight(e[0].contentRect.height);
                     }, 50);
                 });
                 resizeObserver.observe(app);
             });
+
+            function debounce(callback, delay) {
+                let timeoutId;
+
+                return (...args) => {
+                    // Clear the existing timer to reset the delay
+                    clearTimeout(timeoutId);
+
+                    // Start a new timer
+                    timeoutId = setTimeout(() => {
+                    // Execute the callback with the correct 'this' and arguments
+                    callback.apply(this, args);
+                    }, delay);
+                };
+            }
         </script>
     </body>
 </html>
