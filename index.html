@@ -70,8 +70,8 @@
 
                     // Start a new timer
                     timeoutId = setTimeout(() => {
-                    // Execute the callback with the correct 'this' and arguments
-                    callback.apply(this, args);
+                        // Execute the callback with the correct 'this' and arguments
+                        callback.apply(this, args);
                     }, delay);
                 };
             }
