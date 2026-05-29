@@ -32,7 +32,7 @@
             function expandBodyHeight() {
                 console.log('expanding body height');
                 document.getElementsByTagName('body')[0].style.height = [100, 200, 300, 500][Math.floor(Math.random() * 4)] + 'px';
-                expandAppHeight();
+                // expandAppHeight();
             }
             function getDocumentHeight() {
                 const body = document.body;
@@ -42,6 +42,12 @@
             document.addEventListener('DOMContentLoaded', (event) => {
                 console.log('DOMContentLoaded');
                 expandAppHeight();
+
+                // Observe body size changes and notify parent to resize iframe
+                const resizeObserver = new ResizeObserver(() => {
+                    expandAppHeight();
+                });
+                resizeObserver.observe(document.body);
             });
         </script>
     </body>
