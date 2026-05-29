@@ -46,6 +46,8 @@
                 window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
             }
 
+            let _isResizing = false;
+
             document.addEventListener('DOMContentLoaded', (event) => {
 
                 console.log('[App]: DOMContentLoaded, first height expansion (' + document.body.offsetHeight + 'px).');
@@ -53,28 +55,19 @@
 
                 // Observe body size changes and notify parent to resize iframe
                 const resizeObserver = new ResizeObserver((e) => {
-                    debounce(() => {
+                    if (!_isResizing) {
                         console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
                         expandAppHeight(e[0].contentRect.height);
-                    }, 50);
+
+                        _isResizing = true;
+                        setTimeout(() => {
+                            _isResizing = false;
+                        }, 50);
+                    };
                 });
                 resizeObserver.observe(app);
             });
 
-            function debounce(callback, delay) {
-                let timeoutId;
-
-                return (...args) => {
-                    // Clear the existing timer to reset the delay
-                    clearTimeout(timeoutId);
-
-                    // Start a new timer
-                    timeoutId = setTimeout(() => {
-                        // Execute the callback with the correct 'this' and arguments
-                        callback.apply(this, args);
-                    }, delay);
-                };
-            }
         </script>
     </body>
 </html>
