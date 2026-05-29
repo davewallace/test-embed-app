@@ -9,6 +9,8 @@
              * This allows the embedded app to automatically match the Totara theme without needing to duplicate any theme logic.
              */
             body {
+                padding: 0;
+                border: none;
                 color: var(--color-primary);
             }
                 #app {
@@ -50,7 +52,7 @@
                 // Observe body size changes and notify parent to resize iframe
                 const resizeObserver = new ResizeObserver((e) => {
                     console.log(e[0].contentRect.height);
-                    expandAppHeight();
+                    expandAppHeight(e[0].contentRect.height);
                 });
                 resizeObserver.observe(app);
             });
