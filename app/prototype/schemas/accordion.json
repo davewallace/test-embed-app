@@ -1,0 +1,61 @@
+{
+	"$ref": "schemas/text.json",
+	"title": "Accordion",
+	"id": "accordion",
+	  "properties":{
+    "_items": {
+    	"format": "tabs",
+			"options": {
+				"collapsed": true
+			},
+      "type":"array",
+      "required":true,
+      "minItems": 1,
+      "title": "Items",
+      "items": {
+      	"headerTemplate": "{{ i0 }}",
+        "type":"object",
+        "required":true,
+        "properties":{
+          "title": {
+            "type":"string",
+            "required":true,
+            "title": "Title",
+            "minLength": 1
+          },
+          "body": {
+            "type":"string",
+            "required":true,
+            "title": "Content text",
+            "minLength": 1
+          },
+          "alt": {
+            "type":"string",
+            "required":false,
+            "title": "Alternative text"
+          },
+         "_graphic": {
+            "type":"object",
+            "options": {
+              "collapsed": true
+            },
+            "title": "Graphic Item",
+            "required":true,
+            "properties":{
+              "alt": {
+                "type":"string",
+                "required":false,
+                "title": "Alternative text"
+              },
+              "src": {
+                "type":"string",
+                "required":false,
+                "title": "Image Source"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

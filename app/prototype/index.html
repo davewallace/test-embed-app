@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/5.0.2/css/foundation.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+	<script src="js/jsoneditor.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="schemas/schemas.js"></script>
+  <script src="js/main.js"></script>
+	<script>
+
+    // Set the default CSS theme and icon library globally
+    JSONEditor.defaults.theme = 'foundation5';
+    JSONEditor.defaults.iconlib = 'fontawesome4';
+  </script>
+</head>
+<body>
+	<div class='row'>
+      <div class='medium-12-columns'>
+        <button id='update' class='tiny'>Update</button>
+        <span id='valid_indicator' class='label'></span>
+      </div>
+    </div>
+    <div class='row'>
+      <div id='editor_holder' class='medium-12 columns'></div>
+    </div>
+</body>
+</html>

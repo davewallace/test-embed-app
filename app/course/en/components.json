@@ -1,0 +1,2102 @@
+[
+	{
+		"_id": "c-100",
+		"_parentId": "b-100",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+			{
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+
+		]
+	},
+	{
+		"_id": "c-105",
+		"_parentId": "b-100",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"large": "course/en/images/single-width.jpg",
+			"medium": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+		]
+	},
+	{
+		"_id": "c-110",
+		"_parentId": "b-105",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Accordion",
+		"displayTitle": "Accordion",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"title": "Item 1",
+				"body": "Body 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			},
+			{
+				"title": "Item 2",
+				"body": "Body 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			},
+			{
+				"title": "Item 3",
+				"body": "Body 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ] 
+	},
+	{
+		"_id": "c-115",
+		"_parentId": "b-110",
+		"_type": "component",
+		"_component": "hotgraphic",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_canCycleThroughPagination": false,
+		"title": "Hot Graphic",
+		"displayTitle": "Hot Graphic",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"mobileInstruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"src": "course/en/images/hotgraphic.jpg"
+		},
+		"_items": [
+			{
+				"title": "Item 1",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/hotgraphic-item.jpg"
+				},
+				"strapline": "Item 1 Strapline",
+				"_top": 42,
+				"_left": 8.5
+			},
+			{
+				"title": "Item 2",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/hotgraphic-item.jpg"
+				},
+				"strapline": "Item 2 Strapline",
+				"_top": 62,
+				"_left": 26.5
+			},
+			{
+				"title": "Item 3",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/hotgraphic-item.jpg"
+				},
+				"strapline": "Item 3 Strapline",
+				"_top": 62,
+				"_left": 49
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+	    "_id": "c-120",
+	    "_parentId": "b-115",
+	    "_type": "component",
+	    "_component": "media",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "Media",
+	    "displayTitle": "Media",
+	    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+	    "instruction": "Duis eu metus eu ante semper euismod.",
+	    "_setCompletionOn": "inview",
+	    "_useClosedCaptions": true,
+	    "_media": {
+	        "mp4": "course/en/video/media.mp4",
+			"ogv": "course/en/video/media.ogv",
+			"poster": "course/en/video/media.jpg",
+	        "cc": [
+	            {
+					"srclang": "en",
+					"src": "course/en/video/media.vtt"
+				}
+	        ]
+	    },
+	    "_transcript": {
+	        "_inlineTranscript": true,
+	        "_externalTranscript": false,
+	        "inlineTranscriptButton": "Transcript",
+	        "inlineTranscriptCloseButton": "Close Transcript",
+	        "inlineTranscriptBody": "Transcript body text should go here",
+	        "transcriptLinkButton": "Transcript",
+	        "transcriptLink": "assets/transcript.pdf"
+	    },
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-125",
+		"_parentId": "b-120",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "Narrative",
+		"displayTitle": "Narrative",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"mobileInstruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"title": "Item 1",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/narrative.jpg"
+				},
+				"strapline": "Item 1 Strapline"
+			},
+			{
+				"title": "Item 2",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/narrative.jpg"
+				},
+				"strapline": "Item 2 Strapline"
+			},
+			{
+				"title": "Item 3",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/narrative.jpg"
+				},
+				"strapline": "Item 3 Strapline"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-200",
+		"_parentId": "b-200",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-210",
+		"_parentId": "b-200",
+		"_type": "component",
+		"_component": "matching",
+		"_classes": "",
+		"_layout": "right",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"title": "Matching",
+		"displayTitle": "Matching",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"placeholder": "Select an option",
+		"_items": [
+			{
+				"text": "Question 1",
+				"_options": [
+					{
+						"text": "Option 1 - Correct",
+						"_isCorrect": true
+					},
+					{
+						"text": "Option 2",
+						"_isCorrect": false
+					},
+					{
+						"text": "Option 3",
+						"_isCorrect": false
+					},
+					{
+						"text": "Option 4",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Question 2",
+				"_options": [
+					{
+						"text": "Option 1 - Correct",
+						"_isCorrect": true
+					},
+					{
+						"text": "Option 2",
+						"_isCorrect": false
+					},
+					{
+						"text": "Option 3",
+						"_isCorrect": false
+					},
+					{
+						"text": "Option 4",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Question 3",
+				"_options": [
+					{
+						"text": "Option 1 - Correct",
+						"_isCorrect": true
+					},
+					{
+						"text": "Option 2",
+						"_isCorrect": false
+					},
+					{
+						"text": "Option 3",
+						"_isCorrect": false
+					},
+					{
+						"text": "Option 4",
+						"_isCorrect": false
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"notFinal": "Partially Correct Feedback text.",
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"notFinal": "Incorrect Feedback text.",
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-215",
+		"_parentId": "b-205",
+		"_type": "component",
+		"_component": "gmcq",
+		"_classes": "col-4 ",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "GMCQ",
+		"displayTitle": "GMCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+        {
+            "text": "Option 1 - Correct",
+            "_shouldBeSelected": true,
+            "_graphic": {
+                "alt": "alt text",
+                "large": "course/en/images/gmcq.png",
+                "small": "course/en/images/gmcq.png"
+            }
+        },
+        {
+            "text": "Option 2",
+            "_shouldBeSelected": false,
+            "_graphic": {
+                "alt": "alt text",
+                "large": "course/en/images/gmcq.png",
+                "small": "course/en/images/gmcq.png"
+            }
+        },
+        {
+            "text": "Option 3",
+            "_shouldBeSelected": false,
+            "_graphic": {
+                "alt": "alt text",
+                "large": "course/en/images/gmcq.png",
+                "small": "course/en/images/gmcq.png"
+            }
+        },
+        {
+            "text": "Option 4",
+            "_shouldBeSelected": false,
+            "_graphic": {
+                "alt": "alt text",
+                "large": "course/en/images/gmcq.png",
+                "small": "course/en/images/gmcq.png"
+            }
+        }
+    ],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-220",
+		"_parentId": "b-210",
+		"_type": "component",
+		"_component": "textinput",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_allowsAnyCase": true,
+		"_allowsPunctuation": true,
+		"title": "Text Input",
+		"displayTitle": "Text Input",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod. Type 'answer'",
+		"_items": [
+			{
+				"prefix": "",
+				"placeholder": "Enter answer here",
+				"_answers": [
+					"answer"
+				],
+				"suffix": ""
+			},
+			{
+				"prefix": "",
+				"placeholder": "Enter answer here",
+				"_answers": [
+					"answer"
+				],
+				"suffix": ""
+			},
+			{
+				"prefix": "",
+				"placeholder": "Enter answer here",
+				"_answers": [
+					"answer"
+				],
+				"suffix": ""
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"notFinal": "Partially Correct Feedback text.",
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"notFinal": "Incorrect Feedback text.",
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-225",
+		"_parentId": "b-215",
+		"_type": "component",
+		"_component": "slider",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"title": "Slider",
+		"displayTitle": "Slider",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"labelStart": "Label Start",
+		"labelEnd": "Label End",
+		"_showNumber": true,
+		"_showScaleIndicator": true,
+		"_scaleStart": 1,
+		"_scaleEnd": 10,
+		"_correctAnswer": "",
+		"_correctRange": {
+			"_bottom": 7,
+			"_top": 7
+		},
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_incorrect": {
+				"notFinal": "Incorrect Feedback text.",
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-300",
+		"_parentId": "b-300",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "ABS Block 1",
+		"displayTitle": "ABS Block 1",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-305",
+		"_parentId": "b-300",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"large": "course/en/images/single-width.jpg",
+			"medium": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		},
+		"_hint": [
+	        {
+	            "title": "Article Block Slider",
+	            "body": "By default, ABS is available on large resolutions. When viewing at other resolutions the blocks return to being vertically stacked."
+	        },
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8</li><li>Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Accessibility Support - WAI AA</li><li>RTL Support - No</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-310",
+		"_parentId": "b-305",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "ABS Block 2",
+		"displayTitle": "ABS Block 2",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-315",
+		"_parentId": "b-305",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"large": "course/en/images/single-width.jpg",
+			"medium": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-320",
+		"_parentId": "b-310",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "ABS Block 3",
+		"displayTitle": "ABS Block 3",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-325",
+		"_parentId": "b-310",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"large": "course/en/images/single-width.jpg",
+			"medium": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-330",
+		"_parentId": "b-315",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Article Reveal",
+		"displayTitle": "Article Reveal",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-335",
+		"_parentId": "b-315",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"large": "course/en/images/single-width.jpg",
+			"medium": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		},
+		"_hint": [
+	        {
+	            "title": "Article Reveal",
+	            "body": "Text."
+	        },
+	        {
+	            "title": "Browser Support",
+	            "body": "Incomplete"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Accessibility Support - Incomplete</li><li>RTL Support - Incomplete</li></ul>"
+	        }
+	    ]
+	},
+	{
+	    "_id": "c-340",
+	    "_parentId": "b-320",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "Hotgrid",
+	    "displayTitle": "Hotgrid",
+	    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+	    "_setCompletionOn": "inview",
+	    "_columns": 3,
+	    "_items": [
+	        {
+	            "title": "Item 1",
+	            "body": "Body 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+	            "_graphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "srcHover":"course/en/images/hotgrid-hover.png",
+	                "srcVisited":"course/en/images/hotgrid-visited.png",
+	                "alt": "alt text",
+	                "title": "Item Title 1"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "alt": "alt text"
+	            }
+	        },
+	        {
+	            "title": "Item 2",
+	            "body": "Body 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+	            "_graphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "srcHover":"course/en/images/hotgrid-hover.png",
+	                "srcVisited":"course/en/images/hotgrid-visited.png",
+	                "alt": "alt text",
+	                "title": "Item Title 2"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "alt": "alt text"
+	            }
+	        },
+	        {
+	            "title": "Item 3",
+	            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+	            "_graphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "srcHover":"course/en/images/hotgrid-hover.png",
+	                "srcVisited":"course/en/images/hotgrid-visited.png",
+	                "alt": "alt text",
+	                "title": "Item Title 3"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "alt": "alt text"
+	            }
+	        },
+	        {
+	            "title": "Item 4",
+	            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+	            "_graphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "srcHover":"course/en/images/hotgrid-hover.png",
+	                "srcVisited":"course/en/images/hotgrid-visited.png",
+	                "alt": "alt text",
+	                "title": "Item Title 4"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "alt": "alt text"
+	            }
+	        },
+	        {
+	            "title": "Item 5",
+	            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+	            "_graphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "srcHover":"course/en/images/hotgrid-hover.png",
+	                "srcVisited":"course/en/images/hotgrid-visited.png",
+	                "alt": "alt text",
+	                "title": "Item Title 5"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/hotgrid.png",
+	                "alt": "alt text"
+	            }
+	        }
+	    ],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-345",
+		"_parentId": "b-325",
+		"_type": "component",
+		"_component": "tabs",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Tabs",
+		"displayTitle": "Tabs",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_tabLayout": "left",
+		"_items": [
+			{
+				"tabTitle": "Tab 1",
+				"title": "Title 1",
+				"body": "Body 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			},
+			{
+				"tabTitle": "Tab 2",
+				"title": "Title 2",
+				"body": "Body 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae."
+			},
+			{
+				"tabTitle": "Tab 3",
+				"title": "Title 3",
+				"body": "Body 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			},
+			{
+				"tabTitle": "Tab 4",
+				"title": "Title 4",
+				"body": "Body 4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "To be confirmed - Please consult with FED"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-350",
+		"_parentId": "b-330",
+		"_type": "component",
+		"_component": "tabs",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Tabs",
+		"displayTitle": "Tabs",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_tabLayout": "top",
+		"_items": [
+			{
+				"tabTitle": "Tab 1",
+				"title": "Title 1",
+				"body": "Body 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			},
+			{
+				"tabTitle": "Tab 2",
+				"title": "Title 2",
+				"body": "Body 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae."
+			},
+			{
+				"tabTitle": "Tab 3",
+				"title": "Title 3",
+				"body": "Body 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			},
+			{
+				"tabTitle": "Tab 4",
+				"title": "Title 4",
+				"body": "Body 4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/accordion.jpg"
+				}
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "To be confirmed - Please consult with FED"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+	    "_id": "c-400",
+	    "_parentId": "b-400",
+	    "_type": "component",
+	    "_component": "ppq",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "PPQ",
+	    "displayTitle": "PPQ",
+	    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+	    "_attempts": 1,
+	    "_questionWeight": 1,
+	    "_isResetOnRevisit": true,
+	    "_developerMode": true,
+	    "_pinboardDesktop": {
+	        "src": "course/en/images/hotgraphic.jpg",
+	        "alt": "",
+	        "title": ""
+	    },
+	    "_pinboardMobile": {
+	        "src": "course/en/images/hotgraphic.jpg",
+	        "alt": "",
+	        "title": ""
+	    },        
+	    "_items": [
+	        {
+	            "desktop": {
+	                "left": 0,
+	                "top": 0,
+	                "width": 20,
+	                "height": 20
+	            },
+	            "mobile": {
+	                "left": 0,
+	                "top": 0,
+	                "width": 20,
+	                "height": 20
+	            }                
+	        },
+	        {
+	            "desktop": {
+	                "left": 40,
+	                "top": 40,
+	                "width": 20,
+	                "height": 20
+	            },
+	            "mobile": {
+	                "left": 40,
+	                "top": 40,
+	                "width": 20,
+	                "height": 20
+	            }                
+	        },
+	        {
+	            "desktop": {
+	                "left": 80,
+	                "top": 80,
+	                "width": 20,
+	                "height": 20
+	            },
+	            "mobile": {
+	                "left": 80,
+	                "top": 80,
+	                "width": 20,
+	                "height": 20
+	            }                
+	        }
+	    ],
+	    "_feedback": {
+	        "correct": "Correct Feedback text.",
+	        "_partlyCorrect": {
+	            "notFinal": "Partially Correct Feedback text.",
+	            "final": "Partially Correct Final Feedback text."
+	        },
+	        "_incorrect": {
+	            "notFinal": "Incorrect Feedback text.",
+	            "final": "Incorrect Final Feedback text."
+	        }
+	    },
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "To be confirmed - Please consult with FED"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - No</li><li>RTL Support - No</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-500",
+		"_parentId": "b-500",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 2,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-505",
+		"_parentId": "b-505",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Introduction",
+		"displayTitle": "",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-510",
+		"_parentId": "b-505",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-95",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"large": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-515",
+		"_parentId": "b-510",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 5",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-520",
+		"_parentId": "b-510",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-95",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"large": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-525",
+		"_parentId": "b-515",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 5",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-530",
+		"_parentId": "b-515",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-95",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"large": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-535",
+		"_parentId": "b-520",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-540",
+		"_parentId": "b-520",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-95",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"large": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-545",
+		"_parentId": "b-525",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-550",
+		"_parentId": "b-525",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-95",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"large": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-555",
+		"_parentId": "b-530",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 2,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-560",
+		"_parentId": "b-530",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-95",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"large": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-565",
+		"_parentId": "b-535",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Assessment Results component",
+		"displayTitle": "",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-570",
+		"_parentId": "b-540",
+		"_type": "component",
+		"_component": "assessmentResults",
+		"_classes": "",
+		"_layout": "full",
+		"_isVisibleBeforeCompletion": false,
+		"_assessmentId": "a-500",
+		"title": "Results",
+		"displayTitle": "Results",
+		"body": "",
+		"instruction": "",
+		"_retry": {
+			"button": "Retry Assessment",
+			"_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+			"feedback": ""
+		},
+		"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+		"_completionBody": "{{{feedback}}}",
+		"_bands": [
+			{
+				"_score": 0,
+				"feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 40,
+				"feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 70,
+				"feedback": "You passed, achieving a score of {{scoreAsPercent}}%.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 100,
+				"feedback": "You passed, achieving a score of {{scoreAsPercent}}%.",
+				"_allowRetry": false
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-600",
+		"_parentId": "b-600",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Background Switcher",
+	            "body": ""
+	        },
+	        {
+	            "title": "Browser Support",
+	            "body": "To be confirmed - Please consult with FED"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Accessibility Support - N/A</li><li>RTL Support - N/A</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-605",
+		"_parentId": "b-605",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-610",
+		"_parentId": "b-610",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-615",
+		"_parentId": "b-615",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-620",
+		"_parentId": "b-620",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-700",
+		"_parentId": "b-700",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae. <br><br>Suspendisse scelerisque libero non nulla vulputate, at molestie magna viverra. Sed vel odio leo. Vestibulum imperdiet est ac diam venenatis faucibus. Praesent condimentum ultricies risus finibus suscipit. Sed sollicitudin dapibus imperdiet. Proin ligula lectus, feugiat ut dictum pulvinar, auctor ac lectus. Vivamus id risus non nunc commodo placerat. Curabitur sem elit, consequat in sem vel, varius interdum orci. Morbi porttitor egestas erat, ut volutpat arcu pellentesque at.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+			{
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+
+		]
+	},
+	{
+		"_id": "c-705",
+		"_parentId": "b-700",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"large": "course/en/images/single-width.jpg",
+			"medium": "course/en/images/single-width.jpg",
+			"small": "course/en/images/single-width.jpg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+		]
+	},
+	{
+		"_id": "c-710",
+		"_parentId": "b-705",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "Narrative",
+		"displayTitle": "Narrative",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"mobileInstruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"title": "Item 1",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/narrative.jpg"
+				},
+				"strapline": "Item 1 Strapline"
+			},
+			{
+				"title": "Item 2",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/narrative.jpg"
+				},
+				"strapline": "Item 2 Strapline"
+			},
+			{
+				"title": "Item 3",
+				"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/narrative.jpg"
+				},
+				"strapline": "Item 3 Strapline"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "<ul><li>Chrome, Chrome for Android</li><li>Firefox (ESR + latest version)</li><li>IE11, IE10, IE9, IE8, IE Mobile 11</li><li>Safari for iPhone (iOS 7+8), Safari for iPad (iOS 7+8), Safari 8</li><li>Opera</li></ul>"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium</li><li>Accessibility Support - WAI AA</li><li>RTL Support - Yes</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-800",
+		"_parentId": "b-800",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_partlyCorrect": {
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-900",
+		"_parentId": "b-900",
+		"_type": "component",
+		"_component": "questionStrip",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"title": "Question Strip",
+		"displayTitle": "Question Strip",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_images": [
+			{
+				"_id": 1,
+				"src": "course/en/images/narrative-strip-1.jpg"
+			},
+			{
+				"_id": 2,
+				"src": "course/en/images/narrative-strip-2.jpg"
+			}
+		],
+		"_items": [
+			{
+				"_id": "top",
+				"_initialItemIndex": 0,
+				"_subItems": [
+					{
+						"_imageId": 1,
+						"strapline": "Top 1",
+						"_isCorrect": true
+					},
+					{
+						"_imageId": 2,
+						"strapline": "Top 2"
+					}
+				]
+			},
+			{
+				"_id": "middle",
+				"_initialItemIndex": 0,
+				"_subItems": [
+					{
+						"_imageId": 1,
+						"strapline": "Middle 1",
+						"_isCorrect": true
+					},
+					{
+						"_imageId": 2,
+						"strapline": "Middle 2"
+					}
+				]
+			},
+			{
+				"_id": "bottom",
+				"_initialItemIndex": 0,
+				"_subItems": [
+					{
+						"_imageId": 1,
+						"strapline": "Bottom 1",
+						"_isCorrect": true
+					},
+					{
+						"_imageId": 2,
+						"strapline": "Bottom 2"
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_incorrect": {
+				"notFinal": "Partially Correct Feedback text.",
+				"final": "Partially Correct Final Feedback text."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Incorrect Feedback text.",
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "To be confirmed - Please consult with FED"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - No</li><li>RTL Support - No</li></ul>"
+	        }
+	    ]
+	},
+	{
+	    "_id": "c-905",
+	    "_parentId": "b-900",
+	    "_type": "component",
+	    "_component": "narrativeStrip",
+	    "_classes": "",
+	    "_layout": "right",
+	    "title": "Narrative Strip",
+	    "displayTitle": "Narrative Strip",
+	    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+	    "_images": [
+	        {
+	            "_id": 1,
+	            "src": "course/en/images/narrative-strip-1.jpg"
+	        },
+	        {
+	            "_id": 2,
+	            "src": "course/en/images/narrative-strip-2.jpg"
+	        },
+	        {
+	            "_id": 3,
+	            "src": "course/en/images/narrative-strip-3.jpg"
+	        }
+	    ],
+	    "_items": [
+	        {
+	            "_id": "top",
+	            "_initialItemIndex": 0,
+	            "_subItems": [
+	                {
+	                    "_imageId": 1,
+	                    "strapline": "Top 1"
+	                },
+	                {
+	                    "_imageId": 2,
+	                    "strapline": "Top 2"
+	                },
+	                {
+	                    "_imageId": 3,
+	                    "strapline": "Top 3"
+	                }
+	            ]
+	        },
+	        {
+	            "_id": "middle",
+	            "_initialItemIndex": 0,
+	            "_subItems": [
+	                {
+	                    "_imageId": 1,
+	                    "strapline": "Middle 1"
+	                },
+	                {
+	                    "_imageId": 2,
+	                    "strapline": "Middle 2"
+	                },
+	                {
+	                    "_imageId": 3,
+	                    "strapline": "Middle 3"
+	                }
+	            ]
+	        },
+	        {
+	            "_id": "bottom",
+	            "_initialItemIndex": 0,
+	            "_subItems": [
+	                {
+	                    "_imageId": 1,
+	                    "strapline": "Bottom 1"
+	                },
+	                {
+	                    "_imageId": 2,
+	                    "strapline": "Bottom 2"
+	                },
+	                {
+	                    "_imageId": 3,
+	                    "strapline": "Bottom 3"
+	                }
+	            ]
+	        }
+	    ],
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+		"_hint": [
+	        {
+	            "title": "Browser Support",
+	            "body": "To be confirmed - Please consult with FED"
+	        },
+	        {
+	            "title": "Additional",
+	            "body": "<ul><li>Layout - Full / Medium / Left / Right</li><li>Accessibility Support - No</li><li>RTL Support - No</li></ul>"
+	        }
+	    ]
+	},
+	{
+		"_id": "c-910",
+		"_parentId": "b-905",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"title": "MCQ",
+		"displayTitle": "MCQ",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"instruction": "Duis eu metus eu ante semper euismod.",
+		"_items": [
+			{
+				"text": "Option 1 - Correct",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Option 2",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 3",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Option 4",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "Correct Feedback text.",
+			"_incorrect": {
+				"final": "Incorrect Final Feedback text."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_triggered": {
+			"_isEnabled":true,
+			"_top": 30,
+			"_left": 30,
+			"showButtonText": "This is the Triggered extension - Click me to show a component",
+			"hideButtonText": "Click me to hide"
+		}
+	}
+]

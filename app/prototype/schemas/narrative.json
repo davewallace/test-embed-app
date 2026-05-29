@@ -1,0 +1,72 @@
+{
+	"$ref": "schemas/text.json",
+	"title": "Narrative",
+	"id": "narrative",
+	"properties":{
+    "mobileInstruction": {
+      "type":"string",
+      "required":false,
+      "title":"Mobile only instruction text"
+    },
+    "_hasNavigationInTextArea": {
+      "type": "boolean"
+    },
+    "_setCompletionOn": {
+      "type": "string",
+      "enum": [
+        "allItems",
+        "inview"
+      ]
+    },
+    "_items": {
+      "type":"array",
+      "required":false,
+      "title": "Narrative screens",
+      "format": "tabs",
+      "options": {
+				"collapsed": true
+			},
+      "items":
+        {
+        "type":"object",
+        "required":false,
+        "headerTemplate": "{{ i0 }}",
+        "properties":{
+          "title": {
+            "type":"string",
+            "title": "Narrative display title"
+          },
+          "body": {
+            "type":"string",
+            "title": "Narrative main text"
+          },
+          "_graphic": {
+          	"options": {
+				"collapsed": true
+			},
+            "type":"object",
+            "title": "Narrative graphic",
+            "properties":{
+              "alt": {
+                "type":"string",
+                "title": "Alternative text"
+              },
+              "src": {
+                "type":"string",
+                "title": "Select graphic"
+              },
+              "title": {
+                "type":"string",
+                "title": "Graphic title"
+              }
+            }
+          },
+          "strapline": {
+            "type":"string",
+            "title": "Narrative strapline"
+          }
+        }
+      }
+    }
+  }
+}

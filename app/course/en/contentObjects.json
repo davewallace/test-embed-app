@@ -1,0 +1,696 @@
+[
+	{
+		"_id": "co-100",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Core Presentation Components",
+		"displayTitle": "Core Presentation Components",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "palette-01",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#45c0c0",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": true,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-200",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Core Question Components",
+		"displayTitle": "Core Question Components",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "palette-02",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#ea1B75",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-300",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Kineo Presentation Components",
+		"displayTitle": "Kineo Presentation Components",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "palette-03",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#00B2e2",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-400",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Kineo Question Components",
+		"displayTitle": "Kineo Question Components",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "palette-04",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#8F1F61",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-500",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Adapt Assessment",
+		"displayTitle": "Adapt Assessment",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+	    "_theme": {
+	    	"_themePalette": "palette-05",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#97c93c",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-600",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Background Switcher",
+		"displayTitle": "Background Switcher",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+	    "_theme": {
+	    	"_themePalette": "palette-01",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#45c0c0",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		},
+        "_backgroundSwitcher": {
+	        "_isActive": true
+	    }
+	},
+	{
+		"_id": "co-700",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Bookmarking",
+		"displayTitle": "Bookmarking",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+	    "_theme": {
+	    	"_themePalette": "palette-02",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#ea1B75",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		},
+		"_bookmarking": {
+		    "_isEnabled": true,
+		    "_level": "page"
+		}
+	},
+	{
+		"_id": "co-800",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Page Incomplete Prompt",
+		"displayTitle": "Page Incomplete Prompt",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+	    "_theme": {
+	    	"_themePalette": "palette-03",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#00B2e2",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		},
+		"_pageIncompletePrompt": {
+		    "_isEnabled": true
+		}
+	},
+	{
+		"_id": "co-900",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Testing Ground",
+		"displayTitle": "Testing Ground",
+		"pageBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+		"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit.",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/boxMenu-item.jpg"
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+	    "_theme": {
+	    	"_themePalette": "palette-04",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "#546e7a",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": true,
+                "_backgroundColor": "#8F1F61",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": true,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	}
+]

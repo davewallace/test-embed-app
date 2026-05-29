@@ -1,0 +1,36 @@
+{
+    "title": "Blank",
+    "type": "object",
+    "id": "blank",
+    "properties": {
+        "_id": {
+            "type": "string"
+        },
+        "_parentId": {
+            "type": "string"
+        },
+        "_type": {
+            "type": "string"
+        },
+        "_component": {
+            "type": "string"
+        },
+        "_classes": {
+            "type": "string"
+        },
+        "_isComplete": {
+            "type": "boolean"
+        },
+        "_isInteractionComplete":  {
+            "type": "boolean"
+        },
+        "_layout": {
+            "type": "string",
+            "enum": [
+                "left",
+                "right",
+                "full"
+            ]
+        }
+    }
+}

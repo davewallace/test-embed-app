@@ -1,0 +1,44 @@
+{
+    "screenSize": {
+        "small": 519,
+        "medium": 759,
+        "large": 1024
+    },
+    "_defaultLanguage": "en",
+    "_defaultDirection": "ltr",
+    "_questionWeight": 1,
+    "_accessibility": {
+        "_isEnabled": true,
+        "_shouldSupportLegacyBrowsers": true,
+        "_isTextProcessorEnabled": true,
+        "_disableTextSelectOnClasses": ".size-small .size-medium .size-large"
+    },
+    "_drawer": {
+        "_showEasing": "easeOutQuart",
+        "_hideEasing": "easeInQuart",
+        "_duration": 400
+    },
+    "_spoor": {
+        "_isEnabled": true,
+        "_tracking": {
+            "_requireCourseCompleted": true,
+            "_requireAssessmentPassed": false,
+            "_shouldSubmitScore": false,
+            "_shouldStoreResponses": false,
+            "_shouldRecordInteractions": true
+        },
+        "_reporting": {
+            "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
+            "_onTrackingCriteriaMet": "completed",
+            "_onAssessmentFailure": "incomplete"
+        }
+    },
+    "_inspector": {
+        "_isEnabled": false,
+        "_disableOnTouch": true,
+        "_tracUrl": "https://dev.kineo.com/trac/adapt_kineo_theme"
+    },
+    "_cheat": {
+        "_isEnabled": false
+    }
+}

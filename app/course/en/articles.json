@@ -1,0 +1,179 @@
+[
+	{
+		"_id": "a-100",
+		"_parentId": "co-100",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-100",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-200",
+		"_parentId": "co-200",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-200",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-300",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-300",
+		"displayTitle": "Article Block Slider",
+		"body": "ABS Body",
+		"instruction": "ABS Instruction",
+		"_articleBlockSlider": {
+		    "_isEnabled": true,
+		    "_slideAnimationDuration": 600,
+		    "_heightAnimationDuration": 300,
+		    "_isEnabledOnScreenSizes": "large",
+		    "_hasTabs": false,
+		    "_hasArrows": true,
+		    "_startIndex": 0,
+		    "_hasUniformHeight": true,
+		    "_minHeight": null
+		}
+	},
+	{
+		"_id": "a-305",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-305",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_icon-text": "REVEAL",
+		    "_closeButtonText": "CLOSE",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-310",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-310",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-400",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-400",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-500",
+		"_parentId": "co-500",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-500",
+		"displayTitle": "",
+		"body": "",
+		"_assessment": {
+			"_isEnabled": true,
+			"_id": "a-500",
+			"_isPercentageBased": true,
+			"_scoreToPass": 70,
+			"_postScoreToLms": true,
+			"_assessmentWeight": 1,
+			"_banks": {
+				"_isEnabled": false,
+				"_split": "2,1",
+				"_randomisation": false
+			},
+			"_randomisation": {
+				"_isEnabled": false,
+				"_blockCount": 1
+			},
+			"_questions": {
+				"_resetType": "hard",
+				"_canShowFeedback": false
+			},
+			"_isResetOnRevisit": true,
+			"_attempts": "infinite"
+		},
+		"_trickle": {
+			"_isEnabled": true,
+            "_duration": 500,
+            "_autoScroll": true,
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": true,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            },
+            "_scrollTo": "@block +1"
+		}
+	},
+	{
+		"_id": "a-600",
+		"_parentId": "co-600",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-600",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-700",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-700",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-800",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-800",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-900",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-900",
+		"displayTitle": "",
+		"body": ""
+	}
+]

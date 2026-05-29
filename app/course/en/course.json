@@ -1,0 +1,238 @@
+{
+    "screenSize": {
+        "small": 519,
+        "medium": 759,
+        "large": 1024
+    },
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.",
+                "instruction": ""
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below.",
+                "instruction": ""
+            },
+            "_graphic": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPoupupLabel": "Hotgraphic popup"
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button.",
+                "instruction": ""
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below",
+                "instruction": ""
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript.",
+                "instruction": ""
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.",
+                "instruction": ""
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below.",
+                "instruction": ""
+            },
+            "_text": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_textinput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            },
+            "_tabs": {
+                "ariaRegion": "This component is comprised of hidden content panels that can contain text and images. Select the tab item titles to reveal the content panels.",
+                "instruction": ""
+            },
+            "_blank": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_hotGraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "instruction": ""
+            },
+            "_textInput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below.",
+                "instruction": ""
+            },
+            "_hotgrid": {
+                "ariaRegion": "This component contains selectable grid items. Select an item to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "instruction": ""
+            },
+            "_confidenceSlider": {
+                "ariaRegion": "",
+                "instruction": ""
+            }
+        },
+        "_extensions": {
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "You have completed ",
+                "pageLevelProgressMenuBar": "You have completed ",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "durationLabel": "Duration:",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            }
+        },
+        "_accessibility": {
+            "_accessibilityToggleTextOn": "Turn accessibility on?",
+            "_accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "menuItem": "Menu item. Select to view.",
+                "menuViewButton": "Select here to enter.",
+                "page": "",
+                "pageLoaded": "Page Loaded.",
+                "previous": "Back",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Open course resources and search.",
+                "close": "Close",
+                "closeDrawer": "Close Drawer",
+                "closeResources": "Close resources",
+                "drawerBack": "Back to drawer",
+                "drawer": "Side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "incorrect",
+                "correct": "correct",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "sliderHandle": "Slider handle. Use the left and right arrow keys to move the slider and give your answer. Then tab to the submit button below and press enter.",
+                "hotgraphicPopUp": "Hotgraphic popup.",
+                "feedbackPopUp": "Popup opened.",
+                "menuBack": "Back to menu",
+                "menuIndicatorHeading": "Menu item heading ",
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "You have completed "
+            }
+        }
+    },
+    "_id": "course",
+    "_type": "course",
+    "title": "Adapt Kitchen Sink 2.0",
+    "displayTitle": "Adapt Kitchen Sink 2.0",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin odio eu fringilla blandit. Sed at eleifend elit, ac molestie urna. Integer ut lorem sapien. Sed auctor, sapien nec pulvinar ornare, nisl lacus laoreet felis, id pulvinar enim ligula a eros. Phasellus viverra nisi id tellus condimentum efficitur. Curabitur iaculis gravida ipsum quis fermentum. Cras tristique diam purus, et aliquam tortor luctus vitae.",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": ""
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct Answer",
+            "ariaLabel": ""
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My Answer",
+            "ariaLabel": ""
+        },
+        "_showFeedback": {
+            "buttonText": "Show Feedback",
+            "ariaLabel": ""
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_altText": "of components completed on this page"
+    },
+    "_resources": {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_filterAria": {
+            "allAria": "View all resources",
+            "documentAria": "View document resources",
+            "mediaAria": "View media resources",
+            "linkAria": "View resource links"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "document",
+                "title": "Button idea",
+                "description": "Click here to see a proposed button idea",
+                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+            },
+            {
+                "_type": "media",
+                "title": "Adapt Learning YouTube Channel",
+                "description": "Fancy catching up on some Adapt material",
+                "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+            },
+            {
+                "_type": "link",
+                "title": "Community Site",
+                "description": "Click here to view our community site",
+                "_link": "https://community.adaptlearning.org"
+            }
+        ]
+    },
+    "_bookmarking": {
+        "_isEnabled": true,
+        "_level": "page",
+        "title": "Bookmarking",
+        "body": "Would you like to continue where you left off?",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "_pageIncompletePrompt": {
+        "_isEnabled": false,
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        },
+        "title": "Page incomplete",
+        "message": "Are you sure you would like to leave?"
+    },
+    "_search": {
+        "title": "Search",
+        "description": "Type in search words and enter",
+        "placeholder": "Search for 'keyword' or 'custom'",
+        "noResultsMessage": "Sorry, no results were found"
+    },
+    "_assessment": {
+        "_postTotalScoreToLms": true,
+        "_isPercentageBased": true,
+        "_scoreToPass": 75
+    },
+    "_latestTrackingId": 35
+}
