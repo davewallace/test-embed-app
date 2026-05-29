@@ -43,7 +43,8 @@
             }
 
             document.addEventListener('DOMContentLoaded', (event) => {
-                console.log('DOMContentLoaded');
+
+                console.log('DOMContentLoaded, first height expansion (' + document.body.offsetHeight + 'px).');
                 expandAppHeight();
 
                 // Observe body size changes and notify parent to resize iframe
