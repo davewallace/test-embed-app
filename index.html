@@ -42,11 +42,11 @@
             }
             function expandAppHeight(newHeight) {
                 const height = newHeight || document.body.offsetHeight;
-                console.log('\t[App]: expanding app height to (document.body.offsetHeight): ' + height);
+                console.log('\t[App]: expanding app height to: ' + height);
                 window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
             }
 
-            let _isResizing = false;
+            // let _isResizing = false;
 
             document.addEventListener('DOMContentLoaded', (event) => {
 
@@ -55,6 +55,10 @@
 
                 // Observe body size changes and notify parent to resize iframe
                 const resizeObserver = new ResizeObserver((e) => {
+
+                    console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
+                    expandAppHeight(e[0].contentRect.height);
+                    /*
                     if (!_isResizing) {
                         console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
                         expandAppHeight(e[0].contentRect.height);
@@ -64,6 +68,7 @@
                     setTimeout(() => {
                         _isResizing = false;
                     }, 250);
+                    */
                 });
                 resizeObserver.observe(app);
             });
