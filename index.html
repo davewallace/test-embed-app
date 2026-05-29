@@ -10,14 +10,18 @@
              */
             body {
                 color: var(--color-primary);
-                background: var(--color-background);
             }
+                #app {
+                    background: var(--color-background);
+                }
         </style>
     </head>
 
     <body>
-        <p>Hello Totara.</p>
-        <button onclick="expandBodyHeight()">Expand app height</button>
+        <div id="app">
+            <p>Hello Totara.</p>
+            <button onclick="expandContentHeight()">Expand content height</button>
+        </div>
         <script type="text/javascript">
             /**
              * This is a generic web app that can be embedded in Totara using the AppEmbed component.
@@ -25,20 +29,13 @@
              * to send a message to the parent DOM (Totara) to tell it to resize the iframe to fit the content of the app.
              */
             function expandAppHeight() {
-                const height = getDocumentHeight();
+                const height = document.getElementById('app').offsetHeight;
                 console.log('expanding app height to ' + height);
                 window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
             }
-            function expandBodyHeight() {
-                console.log('expanding body height');
-                document.getElementsByTagName('body')[0].style.height = [100, 200, 300, 500][Math.floor(Math.random() * 4)] + 'px';
-                // expandAppHeight();
-            }
-            function getDocumentHeight() {
-                const body = document.body;
-                // const html = document.documentElement;
-                // return Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-                return body.scrollHeight;
+            function expandContentHeight() {
+                console.log('expanding content height');
+                document.getElementById('app').style.height = [100, 200, 300, 500][Math.floor(Math.random() * 4)] + 'px';
             }
             document.addEventListener('DOMContentLoaded', (event) => {
                 console.log('DOMContentLoaded');
