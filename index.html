@@ -53,8 +53,10 @@
 
                 // Observe body size changes and notify parent to resize iframe
                 const resizeObserver = new ResizeObserver((e) => {
-                    console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
-                    expandAppHeight(e[0].contentRect.height);
+                    setTimeout(() => {
+                        console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
+                        expandAppHeight(e[0].contentRect.height);
+                    }, 50);
                 });
                 resizeObserver.observe(app);
             });
