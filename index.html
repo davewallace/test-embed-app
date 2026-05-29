@@ -66,6 +66,15 @@
                 resizeObserver.observe(app);
             });
 
+            // receive CSS variables from parent DOM (Totara) and apply to this document
+            window.addEventListener('message', (event) => {
+                if (event.data && event.data.type === 'appEmbed:cssVariables') {
+                    const style = document.createElement('style');
+                    style.textContent = event.data.css;
+                    document.head.appendChild(style);
+                }
+            });
+
         </script>
     </body>
 </html>
