@@ -8,13 +8,15 @@
              * All CSS Variables from the parent DOM (Totara) are available in a Shadow DOM's stylesheets, so we can use them to style the embedded app.
              * This allows the embedded app to automatically match the Totara theme without needing to duplicate any theme logic.
              */
-            body {
+            html, body {
+                box-sizing: border-box;
+                margin: 0;
                 padding: 0;
                 border: none;
-                color: var(--color-primary);
             }
                 #app {
                     padding: var(--gap-2);
+                    color: var(--color-primary);
                     background: var(--color-background);
                 }
         </style>
