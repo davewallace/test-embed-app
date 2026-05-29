@@ -28,25 +28,29 @@
             <button onclick="expandContentHeight()">Expand content height</button>
         </div>
         <script type="text/javascript">
+
             /**
-             * This is a generic web app that can be embedded in Totara using the AppEmbed component.
-             * This app could be anything, with any height, including being fully dynamic, so we need
-             * to send a message to the parent DOM (Totara) to tell it to resize the iframe to fit the content of the app.
+             * Totara and App need this
              */
             const app = document.getElementById('app');
 
+            /**
+             * App-only logic
+             */
             function expandContentHeight() {
                 const newHeight = [100, 200, 300, 500][Math.floor(Math.random() * 4)];
                 console.log('[App]: Click: expanding content height to ' + newHeight + 'px...');
                 app.style.height = newHeight + 'px';
             }
+
+            /**
+             * Totara-injected logic
+             */
             function expandAppHeight(newHeight) {
                 const height = newHeight || document.body.offsetHeight;
                 console.log('\t[App]: expanding app height to: ' + height);
                 window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
             }
-
-            // let _isResizing = false;
 
             document.addEventListener('DOMContentLoaded', (event) => {
 
@@ -57,20 +61,7 @@
                 const resizeObserver = new ResizeObserver((e) => {
 
                     console.log('[App]: ResizeObserver...');
-                    expandAppHeight();
-
-                    /*
                     expandAppHeight(e[0].contentRect.height);
-                    if (!_isResizing) {
-                        console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
-                        expandAppHeight(e[0].contentRect.height);
-
-                        _isResizing = true;
-                    };
-                    setTimeout(() => {
-                        _isResizing = false;
-                    }, 250);
-                    */
                 });
                 resizeObserver.observe(app);
             });
