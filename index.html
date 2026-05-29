@@ -36,8 +36,9 @@
             }
             function getDocumentHeight() {
                 const body = document.body;
-                const html = document.documentElement;
-                return Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+                // const html = document.documentElement;
+                // return Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+                return body.scrollHeight;
             }
             document.addEventListener('DOMContentLoaded', (event) => {
                 console.log('DOMContentLoaded');
