@@ -37,23 +37,23 @@
 
             function expandContentHeight() {
                 const newHeight = [100, 200, 300, 500][Math.floor(Math.random() * 4)];
-                console.log('Click: expanding content height to ' + newHeight + 'px...');
+                console.log('[App]: Click: expanding content height to ' + newHeight + 'px...');
                 app.style.height = newHeight + 'px';
             }
             function expandAppHeight(newHeight) {
                 const height = newHeight || document.body.offsetHeight;
-                console.log('\texpanding app height to (document.body.offsetHeight): ' + height);
+                console.log('\t[App]: expanding app height to (document.body.offsetHeight): ' + height);
                 window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
             }
 
             document.addEventListener('DOMContentLoaded', (event) => {
 
-                console.log('DOMContentLoaded, first height expansion (' + document.body.offsetHeight + 'px).');
+                console.log('[App]: DOMContentLoaded, first height expansion (' + document.body.offsetHeight + 'px).');
                 expandAppHeight();
 
                 // Observe body size changes and notify parent to resize iframe
                 const resizeObserver = new ResizeObserver((e) => {
-                    console.log(e[0].contentRect.height);
+                    console.log(`[App]: ResizeObserver: new height: ${e[0].contentRect.height}px`);
                     expandAppHeight(e[0].contentRect.height);
                 });
                 resizeObserver.observe(app);
