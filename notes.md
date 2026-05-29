@@ -17,3 +17,15 @@ But it does not isolate against:
 Inherited properties flowing from the host element's computed styles
 CSS custom properties (they inherit by design)
 The :host { all: initial; } fix is the standard way to sever that inheritance at the boundary. It's not a workaround — it's the intended mechanism when you want full style isolation including inherited properties.
+
+
+# TODO
+ - accessible iframes & config + iframe abstraction (`title` and maintain logical structure inside, guidance)
+ - http/https + CORS for `inject` mode?
+ - Fix half-thought-out Block header removal...
+
+# Assumptions
+ - Cross-origin is OK, window.postMessage required
+ - Totara App script injected or App built with Totara npm bundle
+ - A root DOM node is needed for reliable App height measurement. The body element can't be relied upon (iframe scrolling messes with a stable calculation, debouncing would cause jank with smooth #app controlled animated element height changes)
+ - Theme inheritance-resolved CSS Variable API to bundle in the #app, or ideally pass to iframe at runtime
