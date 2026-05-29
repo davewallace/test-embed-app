@@ -60,10 +60,10 @@
                         expandAppHeight(e[0].contentRect.height);
 
                         _isResizing = true;
-                        setTimeout(() => {
-                            _isResizing = false;
-                        }, 500);
                     };
+                    setTimeout(() => {
+                        _isResizing = false;
+                    }, 250);
                 });
                 resizeObserver.observe(app);
             });
