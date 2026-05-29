@@ -36,8 +36,8 @@
                 console.log('Click: expanding content height to ' + newHeight + 'px...');
                 app.style.height = newHeight + 'px';
             }
-            function expandAppHeight() {
-                const height = document.body.offsetHeight;
+            function expandAppHeight(newHeight) {
+                const height = newHeight || document.body.offsetHeight;
                 console.log('\texpanding app height to (document.body.offsetHeight): ' + height);
                 window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
             }
@@ -48,7 +48,8 @@
                 expandAppHeight();
 
                 // Observe body size changes and notify parent to resize iframe
-                const resizeObserver = new ResizeObserver(() => {
+                const resizeObserver = new ResizeObserver((e) => {
+                    console.log(e[0].contentRect.height);
                     expandAppHeight();
                 });
                 resizeObserver.observe(app);
