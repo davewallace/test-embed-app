@@ -34,10 +34,19 @@
         /**
          * App-only logic
          */
+        let appHeight = 0;
         function expandContentHeight() {
-            const newHeight = [100, 200, 300, 500][Math.floor(Math.random() * 4)];
+
+            let newHeight = generateNewHeight();
+            while (newHeight == appHeight) {
+                newHeight = generateNewHeight();
+            }
             console.log('[App]: Click: expanding content height to ' + newHeight + 'px...');
-            app.style.height = newHeight + 'px';
+            app.style.minHeight = newHeight + 'px';
+            appHeight = newHeight; // cache value
+        }
+        function generateNewHeight() {
+            return [200, 300, 400, 500][Math.floor(Math.random() * 4)];
         }
     </script>
 </html>
