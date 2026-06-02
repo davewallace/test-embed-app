@@ -15,9 +15,13 @@
                 border: none;
             }
                 #app {
+                    min-height: 1px;
                     overflow: auto;
                     color: var(--color-state);
-                    background: var(--color-background);
+                    background: var(--color-background, #EFEFEF);
+
+                    transition-property: min-height;
+                    transition-duration: 3s;
                 }
         </style>
         <script preload src="../app-embed.js" type="text/javascript" language="javascript"></script>
