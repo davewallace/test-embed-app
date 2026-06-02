@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Embedded Web App Index</title>
+        <title>Simple Web App</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style type="text/css">
@@ -19,16 +19,24 @@
                     background: var(--color-background);
                 }
         </style>
-        <script preload src="app-embed.js" type="text/javascript" language="javascript"></script>
+        <script preload src="../app-embed.js" type="text/javascript" language="javascript"></script>
     </head>
+
     <body>
         <div id="app">
-            <p>Hello Totara.</p>
-            <p>Choose one of the following types of app to display in this embedded component:</p>
-            <ul>
-                <li><a href="simpleexpander/">Simple Expander</a></li>
-                <li><a href="kitchensink/">Dynamic content web app (Kineo's Adapt)</a></li>
-            </ul>
+            <p><a href="../">&lt; Go back</a></p>
+            <p>Expanding the content height of this embedded component should adjust the height of the parent iframe, to avoid scrollbars.</p>
+            <button onclick="expandContentHeight()">Expand content height</button>
         </div>
     </body>
+    <script type="text/javascript">
+        /**
+         * App-only logic
+         */
+        function expandContentHeight() {
+            const newHeight = [100, 200, 300, 500][Math.floor(Math.random() * 4)];
+            console.log('[App]: Click: expanding content height to ' + newHeight + 'px...');
+            app.style.height = newHeight + 'px';
+        }
+    </script>
 </html>

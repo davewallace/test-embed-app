@@ -29,3 +29,9 @@ The :host { all: initial; } fix is the standard way to sever that inheritance at
  - Totara App script injected or App built with Totara npm bundle
  - A root DOM node is needed for reliable App height measurement. The body element can't be relied upon (iframe scrolling messes with a stable calculation, debouncing would cause jank with smooth #app controlled animated element height changes)
  - Theme inheritance-resolved CSS Variable API to bundle in the #app, or ideally pass to iframe at runtime
+
+# Learnings
+ - inject mostly pointless
+ - Theme and content box resizing is a bonus
+ - 3rd party
+ - Totara "Pages" as a concept; public pages
