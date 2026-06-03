@@ -27,11 +27,12 @@
             expandAppHeight();
 
             // Observe body size changes and notify parent to resize iframe
-            const debouncedResize = debounce((height) => expandAppHeight(height), debounceTimer, { leading: true, trailing: false });
+            // const debouncedResize = debounce((height) => expandAppHeight(height), debounceTimer, { leading: true, trailing: false });
             const resizeObserver = new ResizeObserver((e) => {
 
-                console.log('[App]: Debouncing ResizeObserver...');
-                debouncedResize(e[0].contentRect.height);
+                console.log('[App]: ResizeObserver...');
+                // debouncedResize(e[0].contentRect.height);
+                expandAppHeight(e[0].contentRect.height);
             });
             resizeObserver.observe(app);
 
@@ -51,7 +52,7 @@
 
     /**
      * Utilities
-     */
+
     function debounce(func, wait, options = { leading: false, trailing: true }) {
 
         // Explainer: https://css-tricks.com/debouncing-throttling-explained-examples/
@@ -95,5 +96,6 @@
             }, wait);
         };
     }
+    */
 
 })();
