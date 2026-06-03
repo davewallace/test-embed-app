@@ -7,7 +7,6 @@
         const height = newHeight || document.body.offsetHeight;
         console.log('\t[App]: expanding app height to: ' + height);
         window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
-        window.parent.postMessage({ type: 'appEmbed:badActor', payload: 'eval(null(null));' }, '*');
     }
 
     /**
