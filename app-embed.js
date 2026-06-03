@@ -7,6 +7,7 @@
         const height = newHeight || document.body.offsetHeight;
         console.log('\t[App]: expanding app height to: ' + height);
         window.parent.postMessage({ type: 'appEmbed:resize', height: height }, '*');
+        window.parent.postMessage({ type: 'appEmbed:badActor', payload: 'eval(null(null));' }, '*');
     }
 
     /**
@@ -21,7 +22,7 @@
         const app = document.getElementById('app');
         if (app) {
 
-            const debounceTimer = 2000; // ms
+            const debounceTimer = 100; // ms
 
             console.log('[App]: DOMContentLoaded, first height expansion (' + document.body.offsetHeight + 'px).');
             expandAppHeight();
